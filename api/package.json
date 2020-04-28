@@ -7,6 +7,8 @@
     "node": "12.x"
   },
   "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd find_serie && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
